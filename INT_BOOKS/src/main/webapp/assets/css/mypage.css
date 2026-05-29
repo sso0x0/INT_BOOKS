@@ -1,0 +1,191 @@
+/* ===== mypage.css ===== */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f5f6f7;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Helvetica, Arial, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 16px;
+}
+
+/* ===== 뒤로가기 ===== */
+.link-login {
+	text-align: center;
+	padding: 20px 40px;
+	font-size: 14px;
+}
+
+.link-login a {
+	color: #666;
+	text-decoration: none;
+}
+
+.link-login a:hover {
+	color: #19ce60;
+}
+
+.back-btn:hover {
+	background: #f0fdf4;
+	color: #19ce60;
+	border-color: #19ce60;
+}
+
+/* ===== 메인 컨테이너 ===== */
+.mypage-container {
+	width: 460px;
+	background: #fff;
+	border: 1px solid #dadada;
+	border-radius: 6px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+}
+
+/* ===== 프로필 헤더 ===== */
+.profile-header {
+	padding: 36px 40px 28px;
+	text-align: center;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.profile-icon {
+	width: 80px;
+	height: 80px;
+	background-color: #19ce60;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto 14px;
+}
+
+.profile-name {
+	font-size: 18px;
+	font-weight: 700;
+	color: #222;
+}
+
+/* ===== 섹션 공통 ===== */
+.section {
+	padding: 28px 40px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+/* ===== 섹션 타이틀 ===== */
+.section-title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #19ce60;
+	margin-bottom: 18px;
+}
+
+/* ===== 정보 항목 ===== */
+.info-item {
+	margin-bottom: 14px;
+}
+
+.info-item:last-child {
+	margin-bottom: 0;
+}
+
+.info-label {
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 3px;
+}
+
+.info-value {
+	font-size: 15px;
+	font-weight: 500;
+	color: #222;
+}
+
+/* ===== 성공 메시지 ===== */
+.alert-success {
+	background-color: #f0fdf4;
+	border: 1px solid #bbf7d0;
+	color: #166534;
+	border-radius: 4px;
+	padding: 10px 14px;
+	font-size: 14px;
+	margin-bottom: 18px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+/* ===== 폼 ===== */
+.input-group {
+	margin-bottom: 15px;
+}
+
+.input-label {
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 8px;
+	color: #333;
+	display: block;
+}
+
+.input-group input {
+	width: 100%;
+	padding: 14px;
+	border: 1px solid #dadada;
+	border-radius: 4px;
+	font-size: 15px;
+	font-family: inherit;
+	transition: border-color 0.15s;
+}
+
+.input-group input:focus {
+	border-color: #19ce60;
+	outline: none;
+}
+
+/* ===== 제출 버튼 ===== */
+.btn-submit {
+	width: 100%;
+	padding: 15px;
+	background-color: #19ce60;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 6px;
+	margin-bottom: 7px;
+	font-family: inherit;
+	transition: background-color 0.15s;
+}
+
+.btn-submit:hover {
+	background-color: #15b552;
+}
+
+/* ===== 로그아웃 버튼 ===== */
+.btn-logout {
+	width: 100%;
+	padding: 15px;
+	background-color: #fff;
+	color: #e53e3e;
+	border: 1px solid #e53e3e;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: inherit;
+	transition: background-color 0.15s, color 0.15s;
+}
+
+.btn-logout:hover {
+	background-color: #e53e3e;
+	color: #fff;
+}

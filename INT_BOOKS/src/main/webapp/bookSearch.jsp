@@ -9,8 +9,8 @@
 	request.setCharacterEncoding("UTF-8");
 	
 	// Naver API 인증키
-	String clientId = "qO1xsBbU9nR3hx2hYEtV";
-	String clientSecret = "xz1_qysVmU";
+	String clientId = "본인 키 입력";
+	String clientSecret = "본인 키 입력";
 	
 	// main.js에서 보낸 검색어와 출력 개수
 	String query = request.getParameter("query");
